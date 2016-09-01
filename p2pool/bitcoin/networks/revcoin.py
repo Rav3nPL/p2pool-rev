@@ -23,6 +23,6 @@ CONF_FILE_FUNC = lambda: os.path.join(os.path.join(os.environ['APPDATA'], 'revco
 BLOCK_EXPLORER_URL_PREFIX = 'https://www.blockexperts.com/rvc/hash/'
 ADDRESS_EXPLORER_URL_PREFIX = 'https://www.blockexperts.com/rvc/address/'
 TX_EXPLORER_URL_PREFIX = 'https://www.blockexperts.com/rvc/tx/'
-SANE_TARGET_RANGE = (2**256//2**32//1000000 - 1, 2**256//2**32 - 1)
+SANE_TARGET_RANGE = (2**256//2**32//1000 - 1, 2**256//2**32 - 1)
 DUMB_SCRYPT_DIFF = 1
 DUST_THRESHOLD = 0.001e8
